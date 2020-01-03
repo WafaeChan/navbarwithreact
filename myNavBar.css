@@ -1,0 +1,41 @@
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    border-bottom: solid 3px #57AFF4
+}
+
+
+a:visited {
+    color: rgb(24, 24, 24);
+  }
+  
+  a:link {
+    color: rgb(24, 24, 24);
+  }
+  
+  a:hover {
+    color: #57AFF4;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .dropdownlist { 
+      display: none;
+      position: absolute;
+      margin-left: -20px;
+      border: solid 3px #57AFF4;
+      border-top: none;
+      transition-delay: 1s;
+      }
+
+  
+  .lili:hover + .dropdownlist{
+    display: block;
+    
+}
+
