@@ -1,0 +1,108 @@
+.introcontainer {
+    margin: auto;
+    padding: 3% 25%;
+    color: rgb(71, 71, 71);
+    margin-top: 50px;
+}
+
+.intrologo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introheader {
+    color: #00b39b;
+    font-weight: 400;
+    text-align: center;
+    font-size: 34px;
+}
+
+.mycards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.singlecard {
+    width: 470px;
+    height: auto;
+}
+
+.para {
+    margin-bottom: 80px;
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.square {
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+.laptop {
+    width: 400px;
+    height: 250px;
+}
+
+.target {
+    color: rgba(255, 255, 255, 0.623);
+    margin-left: 40px;
+}
+
+.brief {
+    color: white;
+    font-size: 28px;
+    line-height: -2;
+    margin-top: -7px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.countrylaptop {
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.country {
+    min-width: 180px;
+    height: 45px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    padding: 4px 10px;
+}
+
+.bottomparag {
+    color: #00b39b;
+    font-size: 26px;
+    width: 30%;
+}
+
+.partners {
+    flex-wrap: wrap;
+    display: flex;
+    width: 70%;
+    
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+
+}
+
+.svgicons {
+    fill:#cecece;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.svgicons:hover {
+    fill:#00b39b;
+}

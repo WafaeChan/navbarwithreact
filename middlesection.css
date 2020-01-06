@@ -1,0 +1,61 @@
+.middlecontainer {
+    background-color: #dff9f7;
+    max-width: 100vw;
+    max-height: 570px;
+    padding: 1% 25%;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 450px;
+    padding-right: 30px;
+}
+
+.leftheader {
+    font-weight: 400;
+    color: #00b39b;
+    font-size: 36px;
+}
+
+.lefttext {
+    color: #747489;
+}
+
+.bglogo {
+    margin-top: 60px;
+    margin-left: -150px;    
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.iconcard {
+    max-width: 200px;
+    max-height: 210px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.rightheader {
+    font-weight: 400;
+    color: #00b39b;
+    font-size: 24px;
+}
+
+.righttext {
+    color: #747489;
+    font-size: 14px;
+
+}
+.top-margin-l{
+    margin-top: 40px;
+
+}

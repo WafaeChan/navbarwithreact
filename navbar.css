@@ -1,0 +1,108 @@
+.navlogo{
+    width: 27%;
+    height: auto;
+}
+
+.mainlist {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+    color: rgb(80, 79, 79);
+    margin-top: -0.1px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.mainlinelink:visited {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.mainlinelink:active {
+    text-decoration: none;
+    color: #00b39b;
+}
+
+.mainlinelink:hover {
+    text-decoration: none;
+    color: #00C3A5;
+}
+
+.mainlinelink {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.sublinelink:visited {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.sublinelink:active {
+    text-decoration: none;
+    color: #00b39b;
+}
+
+.sublinelink:hover {
+    text-decoration: none;
+    color: #00C3A5;
+}
+
+.sublinelink {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.navcontainer {
+    color: rgb(44, 44, 44);
+    max-width: 100vw;
+    margin: auto; 
+    padding: 1% 25%;
+    background-color: rgba(255, 255, 255, 0.925);
+    box-shadow: 5px 0px 8px #88888844;
+    align-items: baseline;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+}
+
+.mainline {
+    position: relative;
+    font-size: 18px;
+}
+
+.droplist {
+    position: absolute;
+    width: 250px;
+    display: none;
+    margin-left: -150px;
+    background-color: white;
+    box-shadow: 3px 3px 8px #888888e1;
+    z-index: 5;
+    margin-top: 4px;
+}
+
+.dropline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.dropline:hover {
+    background-color: #bebdbd28;
+}
+
+.dropline a:hover {
+    color: #00b39b;
+}
+
+.mainline:hover .droplist {
+    display: block;
+}
